@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/0_Log In.unity
+    guid: 2272b6fced7c6bd449972a0a772a4373
+  - enabled: 1
+    path: Assets/Scenes/1_Preferences Page.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/2_Hotels and Stuff.unity
+    guid: 04ef64e9f80acdb42b66ca744ebffb59
+  - enabled: 1
+    path: Assets/Scenes/3_Schedule.unity
+    guid: 50042e5507594324ba04224544432601
   m_configObjects: {}
