@@ -3,26 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManagement : MonoBehaviour {
+public class SceneController : MonoBehaviour {
 
-    void Login()
+	void NextScene(string name)
     {
-
+        Debug.Log(name);
+        SceneManager.LoadScene(name);
     }
 
-    void SignUp()
-    {
+    // Use this for initialization
+    void Start () {
 
-    }
-
-    void NextScene()
-    {
-
-    }
-
-	// Use this for initialization
-	void Start () {
-		
 	}
 	
 	// Update is called once per frame
