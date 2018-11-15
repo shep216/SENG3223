@@ -328,8 +328,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 54c618b6e89a00f4bb63aa08a8db88b0, type: 3}
-        m_MethodName: set_name
+      - m_Target: {fileID: 114180486041548738, guid: fc2dde92ca6a9c445ae46506769f53d0,
+          type: 2}
+        m_MethodName: LoadLevel
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -814,8 +815,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 54c618b6e89a00f4bb63aa08a8db88b0, type: 3}
-        m_MethodName: set_name
+      - m_Target: {fileID: 114180486041548738, guid: fc2dde92ca6a9c445ae46506769f53d0,
+          type: 2}
+        m_MethodName: LoadLevel
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

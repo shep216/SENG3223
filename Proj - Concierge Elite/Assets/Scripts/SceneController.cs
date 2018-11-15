@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour {
 
-	void NextScene(string name)
+	public void LoadLevel(string name)
     {
         Debug.Log(name);
         SceneManager.LoadScene(name);
